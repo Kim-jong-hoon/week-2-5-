@@ -17,7 +17,7 @@
 
 ## 두번째 미션
 📝 Mission: 목표선 그리기 함수 만들기
-🎯 조건:
+<br>🎯 조건:
 1. Import: import matplotlib.pyplot as plt
 2. 함수 정의: def draw_goal_line(obstacles):
     <br>매개변수: obstacles (장애물들의 집합/리스트)
