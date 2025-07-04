@@ -87,3 +87,23 @@
   <br>-ax.add_patch(rect): 사각형을 그래프에 추가
   <br>-enumerate(): 인덱스와 값을 동시에 가져오기
 <br>isinstance(obstacles, set): 타입 확인
+
+## 네번째 미션
+센서 빔들 그리기 # 📝 Mission: 센서 그리기 함수 만들기
+🎯 조건:
+1. 함수 정의:
+  <br>-def draw_sensors(x, y, sensors):
+2. 캔버스: figsize=(6, 5), 격자, 제목 "Sensors"
+3. 차량 위치: 검은색 원점 'ko', markersize=15
+4. 센서 선 그리기:
+  <br>-전방: 'b-' (x, y) → (x, y + sensors['front'])
+  <br>-좌측: 'g-' (x, y) → (x - sensors['left'], y)
+  <br>-우측: 'r-' (x, y) → (x + sensors['right'], y)
+  <br>-모든 선: linewidth=3
+
+거리 텍스트 표시:
+ax.text(x + 0.1, y + front_reach/2, f'{sensors["front"]:.1f}', color='blue', fontweight='bold')
+센서 끝점 동그라미:# 센서 끝점에 점 표시
+ax.plot(x, y + front_reach, 'bo', markersize=8) # 전방 끝점
+최대 센서 길이 제한:
+sensor_length = 3 # 최대 센서 길이 front_reach = min(sensors['front'], sensor_length)
