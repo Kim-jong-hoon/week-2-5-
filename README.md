@@ -52,8 +52,8 @@
 
 ## 세번째 미션
 📝 Mission: 장애물 그리기 함수 만들기
-🎯 조건:
-1.Import:
+<br>🎯 조건:
+1. Import:
   <br>import matplotlib.pyplot as plt
   <br>from matplotlib.patches import Rectangle
 2. 함수 정의: def draw_obstacles(obstacles):
