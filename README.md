@@ -54,16 +54,16 @@
 📝 Mission: 장애물 그리기 함수 만들기
 🎯 조건:
 1.Import:
-<br>import matplotlib.pyplot as plt
-<br>from matplotlib.patches import Rectangle
+  <br>import matplotlib.pyplot as plt
+  <br>from matplotlib.patches import Rectangle
 2. 함수 정의: def draw_obstacles(obstacles):
-<br> 매개변수: obstacles (장애물 위치들의 set 또는 list)
+  <br> 매개변수: obstacles (장애물 위치들의 set 또는 list)
 3. 캔버스 설정:
-<br>크기: figsize=(8, 6)
-<br>축 범위:
-    <br>1.ax.set_xlim(-1, 8)   # X축 범위: -1 ~ 8
-    <br>2.ax.set_ylim(-1, 12)  # Y축 범위: -1 ~ 12
-<br>정사각형 비율: set_aspect('equal')
+  <br>크기: figsize=(8, 6)
+  <br>축 범위:
+      <br>1.ax.set_xlim(-1, 8)   # X축 범위: -1 ~ 8
+      <br>2.ax.set_ylim(-1, 12)  # Y축 범위: -1 ~ 12
+  <br>정사각형 비율: set_aspect('equal')
 <br>격자와 라벨 설정
 4. 데이터 처리:
 <br>set을 list로 변환하여 순서 보장
