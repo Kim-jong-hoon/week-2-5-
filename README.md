@@ -1,3 +1,4 @@
+## 첫번째 미션
 🎯 Mission: 기본 플롯 만들기
 조건:
 1. Import: import matplotlib.pyplot as plt
@@ -10,6 +11,6 @@
 6. 레이아웃 최적화: plt.tight_layout() (show() 직전에)
 7. 실행: if __name__ == "__main__": 안에서 setup_basic_plot(5, "turn_left") 호출
 8. 추가 힌트:
-  함수는 ax 객체를 반환해야 함
-  plt.show()로 화면에 표시
-  f-string 사용해서 동적 제목 만들기
+  <br>함수는 ax 객체를 반환해야 함
+  <br>plt.show()로 화면에 표시
+  <br>f-string 사용해서 동적 제목 만들기
