@@ -20,32 +20,32 @@
 🎯 조건:
 1. Import: import matplotlib.pyplot as plt
 2. 함수 정의: def draw_goal_line(obstacles):
-    매개변수: obstacles (장애물들의 집합/리스트)
+    <br>매개변수: obstacles (장애물들의 집합/리스트)
 3. 캔버스 설정:
-   -크기: figsize=(8, 6)
-   -축 범위: X(-18), Y(-112)
-   -격자: grid(True, alpha=0.3)
+   <br>-크기: figsize=(8, 6)
+   <br>-축 범위: X(-18), Y(-112)
+   <br>-격자: grid(True, alpha=0.3)
 4. 목표선 계산:
-  -가장 높은 장애물의 Y좌표 찾기
-  -목표선 = 최대 Y좌표 + 3
-  -장애물이 없으면 Y=0 기준
+  <br>-가장 높은 장애물의 Y좌표 찾기
+  <br>-목표선 = 최대 Y좌표 + 3
+  <br>-장애물이 없으면 Y=0 기준
 5. 목표선 그리기:
-  -초록색 수평선 (color='lime')
-  -선 두께: linewidth=3
-  -투명도: alpha=0.7
+  <br>-초록색 수평선 (color='lime')
+  <br>-선 두께: linewidth=3
+  <br>-투명도: alpha=0.7
 6. 텍스트 표시:
-  -위치: (7, goal_y + 0.2)
-  -내용: f-string으로 "GOAL (y={goal_y})" 표시
-  -색상: 초록색
+  <br>-위치: (7, goal_y + 0.2)
+  <br>-내용: f-string으로 "GOAL (y={goal_y})" 표시
+  <br>-색상: 초록색
 7. 완성 요소:
-  -범례 표시 (ax.legend())
-  -레이아웃 최적화
-  -화면 출력
-  -goal_y 값 반환
+  <br>-범례 표시 (ax.legend())
+  <br>-레이아웃 최적화
+  <br>-화면 출력
+  <br>-goal_y 값 반환
 8. 실행:
-  obstacles = {(3, 2), (3, 3), (2, 4), (4, 5)} 사용
-  함수 호출해서 결과 확인
+  <br>obstacles = {(3, 2), (3, 3), (2, 4), (4, 5)} 사용
+  <br>함수 호출해서 결과 확인
 💡 힌트:
-ax.axhline(): 수평선 그리기
-max() 함수와 조건부 표현식 활용
-ax.text()의 ha, va 매개변수 사용
+<br>ax.axhline(): 수평선 그리기
+<br>max() 함수와 조건부 표현식 활용
+<br>ax.text()의 ha, va 매개변수 사용
