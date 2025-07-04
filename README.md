@@ -111,7 +111,7 @@ sensor_length = 3 # 최대 센서 길이 front_reach = min(sensors['front'], sen
 
 ## 지도학습과 자율주행의 연관성
  1. 지도 학습(Supervised Learning)과 자율주행의 연관성
-지도 학습이란?
+  <br>지도 학습이란?
 
 입력 데이터와 그에 대한 **정답(라벨)**이 함께 주어진 상태에서 모델을 학습시키는 방법입니다.
 
